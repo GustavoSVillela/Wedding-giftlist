@@ -34,17 +34,23 @@ h2{
 
 .wrapper-sec1{
     display: flex;
+    padding-bottom: 20px;
+
 
 }
 
 p{
     text-align: justify;
     padding: 25px 10px 0px 10px;
+    text-indent: 10px;
+    line-height: 1.5;
 }
 .foto{
     display: block;
     margin: auto;
     border-radius: 50%;
     height: 300px;
-    padding-bottom: 20px;
+    border: 6px solid var(--var-color05);
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.549);
 }

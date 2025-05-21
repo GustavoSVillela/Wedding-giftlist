@@ -19,4 +19,32 @@
 
 section{
     background-color: var(--var-color02);
+    border-bottom: 10px solid var(--var-color04);
+}
+
+h1{
+    font-size: 2em;
+    text-align: center;
+    padding: 10px 0px;
+}
+h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.wrapper-sec1{
+    display: flex;
+
+}
+
+p{
+    text-align: justify;
+    padding: 25px 10px 0px 10px;
+}
+.foto{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    height: 300px;
+    padding-bottom: 20px;
 }

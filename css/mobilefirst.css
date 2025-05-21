@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --var-color01:#8E9785;
+    --var-color02: #9E9C8F;
+    --var-color03:#8E9785;
+    --var-color04:#D78139;
+    --var-color05:#935E42;
+    --var-color06:#B65A2D;
+    --var-color07:#7E0609;
+    --var-color08: #5F0C08;
+
+}
+
+section{
+    background-color: var(--var-color02);
+}

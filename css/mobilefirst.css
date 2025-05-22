@@ -18,10 +18,20 @@
     --var-font02: 'Poppins', 'sans-serif';
 }
 
-header{
+menu{
     background-color: #FAE2CC;
+    padding: 7px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
+menu > a{
+    padding: 10px;
+    background-color: var(--var-color02);
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
 body, section{
     background-color: #faf4ef;
     background-image: url(../img/imgdefundo.png);
@@ -68,8 +78,12 @@ p{
     background-color: #B95F33;
     border-radius: 5px;
     font-family: var(--var-font02);
-    color: white;
     font-size: medium;
     padding: 10px;
     border-radius: 5px;
+}
+
+div > a{
+    text-decoration: none;
+    color: white;
 }

@@ -45,7 +45,19 @@
   .copy-btn {
     background-color: #D1D9C3;
     color: #17206B;
+    transition: transform 100ms linear;
   }
   
-  
+.copy-btn:hover{
+    background-color: #B95F33;
+    color: #FAF4EF;
+    transform: scale(1.08);
+}
+
+ .copiado{
+    background-color: #B95F33;
+    color: #FAF4EF;
+    transform: scale(1.08);
+ }
+
   

@@ -1,0 +1,51 @@
+.gift-card {
+    background-color: #FEFEFA;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    max-width: 360px;
+    margin-bottom: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1.5rem;
+  }
+
+  .material-symbols-outlined{
+    color: #24384C;
+  }
+  
+  
+  .gift-card h3 {
+    font-family: 'Playfair Display', serif;
+    color: #17206B;
+    margin-bottom: 0.8rem;
+    text-align: center;
+  }
+  
+  .gift-card p {
+    color: #555;
+    margin: 0.5rem 0;
+  }
+  
+  .card-buttons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .copy-btn {
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: auto;
+}
+  
+  .copy-btn {
+    background-color: #D1D9C3;
+    color: #17206B;
+  }
+  
+  
+  

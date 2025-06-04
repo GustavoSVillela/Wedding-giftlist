@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+
+header,menu{
+    background-color: #FEBD53;
+    background: url(../img/headerjunina.png);
+    background-size: contain;
+}
+
+header h1 {
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+}
+
+body {
+    
+   
+      background-color: #FEBD53 !important;
+      
+    font-family: 'Patrick Hand', cursive;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: url('../img/backjunina.png') no-repeat center top;
+    background-size: cover;
+    padding: 2rem;
+    max-width: 900px;
+    margin: 2rem auto;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.85); 
+        /* camada branca translúcida */
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+
+main > h1{
+    font-family: 'Patrick Hand', cursive;
+    color: #563101;
+    letter-spacing: 0;
+}
+
+main > p{
+    color: #000;
+    text-align: center;
+    margin-top: 0px;
+}
+
+iframe{
+    border-radius: 10px;
+}
+
+
+  

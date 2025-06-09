@@ -6,8 +6,9 @@ document.addEventListener('DOMContentLoaded', function () {
   
       navigator.clipboard.writeText(chave)
         .then(() => {
-          paste.innerText = 'Copiado!';
           paste.classList.add('copiado');
+          paste.innerText = 'Copiado!';
+          
   
           // Depois de 3 segundos, volta ao texto original
           setTimeout(() => {

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --var-color01:#24384C;
+    --var-color02: #B95F33;
+    --var-color03:#799181;
+    --var-color04: #FAF4EF;
+    --var-font01: 'Urbanist', 'sans-serif'; 
+    --var-font02: 'Corinthia', 'cursive';
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.countdown{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}
+
+.title{
+    grid-column: 1 / -1 ;
+    text-align: center;
+    font-size: 22px;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    grid-row: 2;
+}
+
+.value{
+    font-size: 50px;
+    font-family:var(--var-font02) ;
+}

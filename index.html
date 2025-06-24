@@ -5,37 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Milena & Gustavo</title>
     <link rel="stylesheet" href="css/mobilefirst.css">
+    <link rel="stylesheet" href="css/countdown.css">
 </head>
 <body>
     <header>
-        <h1>M & G</h1>
         <menu>
-            <a href="pags/NossaDespedida.html" target="_self">Nossa Despedida</a>
-            <a href="pags/lista.html" target="_self">Lista</a>
-            
+            <h1>M & G</h1>
+            <div class="links">
+                <a href="pags/NossaDespedida.html" target="_self">Nossa Despedida</a>
+                <a href="pags/lista.html" target="_self">Lista</a>
+            </div>
         </menu>
+        <h1>Milena<br>Gustavo</h1>
+        <p>11.06.2025</p>
     </header>
     <main>
-        <section>
-            <div class="title">
-                <h1>Lista de presentes <br> </h1>
-                <h1 class="sub">Casamento</h1>
-            </div>
-           
-            <p>
-                Bem-Vindo à nossa lista de presentes de casamento. Estamos muito felizes em compartilhar esse momento especial da mudança para Portugal com você!
-            </p>
-
-                <div class="button">
-                    <a href="pags/lista.html" target="_self">Ver lista</a>
+       <section class="tiktak">
+            <p>JÁ SE PASSARAM</p>
+            <div class="countdown">
+                <span class="title">Contagem regressiva para nossa Despedida</span>
+                <div class="box">
+                    <span class="value" data-days="">00</span>
+                    <span class="name">days</span>
                 </div>
-                    
-            <p>
-                Seu apoio significa muito para nós
-            </p>
-            
-            
+                <div class="box">
+                    <span class="value" data-hours="">00</span>
+                    <span class="name">hours</span>
+                </div>
+                <div class="box">
+                    <span class="value" data-minutes="">00</span>
+                    <span class="name">minutes</span>
+                </div>
+                <div class="box">
+                    <span class="value" data-seconds="">00</span>
+                    <span class="name">seconds</span>
+                </div>
+            </div>
         </section>
+
     </main>
+    <script src="js/scriptregressivo.js"></script>
 </body>
 </html>
